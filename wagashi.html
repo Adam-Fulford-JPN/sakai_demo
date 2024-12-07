@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sakai City - History</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="video-section">
+    <video controls width="100%">
+      <source src="media/wagashi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  <div class="text-section">
+    <h2>Wagashi</h2>
+    <p>Sakai is home to several long-established wagashi shops that have been operating for centuries. They are often crafted to accompany matcha. This reflects Sakai's historical links with Sen no Rikyū, the famous tea master who perfected the Japanese tea ceremony. At the Denshokan Museum, they sometimes organize wagashi demonstrations.</p>
+  </div>
+
+  <div class="audio-section">
+    <audio id="audioPlayer" src="media/wagashi.mp3"></audio>
+    <button onclick="document.getElementById('audioPlayer').play()">Play Audio</button>
+    <button onclick="document.getElementById('audioPlayer').pause(); document.getElementById('audioPlayer').currentTime=0;">Stop Audio</button>
+  </div>
+
+  <!-- Video Section (optional) -->
+  <div class="video-section">
+    <!-- If you have a video, uncomment and adjust the source:
+    <video controls width="100%">
+      <source src="media/sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    -->
+  </div>
+
+  <div class="nav-section">
+    <a href="index.html">Top Page</a>
+  </div>
+</div>
+</body>
+</html>

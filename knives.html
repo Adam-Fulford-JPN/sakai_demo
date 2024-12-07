@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sakai City - History</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="video-section">
+    <video controls width="100%">
+      <source src="media/knives.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  <div class="text-section">
+    <h2>Knives</h2>
+    <p>Metalworking has been part of Sakai's identity since the centuries when the burial mounds were being made. When Portuguese traders introduced tobacco to Japan much later, in the 16th century, the local metalworkers soon began making high-quality blades to cut it. These days, the kitchen knives made in Sakai have a global reputation.</p>
+  </div>
+
+  <!-- Audio Section (optional) -->
+  <div class="audio-section">
+    <!-- Replace sample-audio.mp3 with your actual file if you have one -->
+    <audio id="audioPlayer" src="media/knives.mp3"></audio>
+    <button onclick="document.getElementById('audioPlayer').play()">Play Audio</button>
+    <button onclick="document.getElementById('audioPlayer').pause(); document.getElementById('audioPlayer').currentTime=0;">Stop Audio</button>
+  </div>
+
+  <!-- Video Section (optional) -->
+  <div class="video-section">
+    <!-- If you have a video, uncomment and adjust the source:
+    <video controls width="100%">
+      <source src="media/sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    -->
+  </div>
+
+  <div class="nav-section">
+    <a href="index.html">Top Page</a>
+  </div>
+</div>
+</body>
+</html>
