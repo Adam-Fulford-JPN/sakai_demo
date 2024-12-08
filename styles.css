@@ -29,6 +29,13 @@ body {
   padding-left: 20px; /* Optional: Indent the list slightly */
 }
 
+/* Added Rule */
+.styled-list,
+.styled-list li,
+.styled-list a {
+  font-size: 24px; /* Ensure all elements in the list use 24px font size */
+}
+
 .styled-list li {
   margin-bottom: 10px; /* Add space below each list item */
 }
