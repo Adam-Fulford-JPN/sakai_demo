@@ -24,7 +24,7 @@ body {
 }
 
 .styled-list {
-  font-size: 18px; /* Increase font size */
+  font-size: 16px; /* Increase font size */
   line-height: 1.5; /* Add vertical space between lines */
   padding-left: 20px; /* Indent the list slightly */
 }
