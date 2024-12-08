@@ -16,24 +16,10 @@ body {
   text-align: left; /* Left-align all content in the container */
 }
 
-.main-image {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-  margin-bottom: 10px; /* Add slight spacing below the image */
-}
-
 .styled-list {
   font-size: 24px; /* Increase the font size */
   line-height: 2; /* Add vertical space between lines (2 = 200%) */
   padding-left: 20px; /* Optional: Indent the list slightly */
-}
-
-/* Added Rule */
-.styled-list,
-.styled-list li,
-.styled-list a {
-  font-size: 24px; /* Ensure all elements in the list use 24px font size */
 }
 
 .styled-list li {
@@ -47,43 +33,4 @@ body {
 
 .styled-list a:hover {
   text-decoration: underline; /* Add underline on hover */
-}
-
-.text-section {
-  margin: 10px 0; /* Vertical spacing for the text section */
-}
-
-.text-section h2 {
-  margin-bottom: 5px; /* Reduce space below the headline */
-  text-align: left; /* Left-align the headline */
-}
-
-.text-section p {
-  text-align: left; /* Left-align the paragraph text */
-  margin: 5px 0; /* Reduce vertical space between paragraphs */
-}
-
-.audio-section {
-  margin: 10px 0; /* Vertical spacing for audio section */
-  text-align: left; /* Left-align the audio buttons */
-}
-
-.audio-section button {
-  margin-right: 5px; /* Add slight space between the buttons */
-}
-
-.nav-section {
-  margin: 10px 0; /* Vertical spacing for navigation links */
-  text-align: left; /* Left-align the navigation section */
-}
-
-.nav-section a {
-  display: inline-block; /* Inline styling for links */
-  margin-top: 5px; /* Reduce vertical space between links */
-  text-decoration: none; /* Remove underline from links */
-  color: blue; /* Set link color */
-}
-
-.text-section, .audio-section, .nav-section {
-  padding: 0; /* Remove extra padding */
 }
