@@ -3,6 +3,7 @@ body {
   margin: 10px auto; /* Center horizontally */
   background: #fff;
   color: #333;
+  background-color: yellow;
   max-width: 600px;
   padding-left: 15px;
   padding-right: 15px;
@@ -54,7 +55,7 @@ h2 {
 h1 {
   margin-top: 10px; /* Add spacing above the main heading */
   font-size: 32px; /* Increase size for prominence */
-  text-align: center; /* Center the main heading */
+  text-align: left; /* Align the headline to the left */
 }
 
 hr {
